@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'roboto';
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left, .right{
+  background-color: rgb(202, 82, 82);
+  width: 30vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3px;
+}
+img{
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+}
+button{
+  background-color: rgb(247, 255, 177);
+  border-radius: 10px;
+  outline: none;
+  font-weight: 600;
+  color: rgb(71, 0, 71);
+  border: transparent;
+  margin-left: 8px;
+  font-size: 15px;
+  
+}
+div{
+  font-size: 20px;
+ }
+.quantity{
+  display: flex;
+} 
+.quantity button{
+  width: 45px;
+  height: 40px;
+}
+.right button{
+  padding: 12px;
+}
+
+.quantity input{
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 150px;
+  height: 40px;
+  border: transparent;  
+}
+
+.search{
+  padding: 10px;
+  font-size: 16px;
+  width: 60vw;
+  height: 35px;
+  margin:30px 5% 15px 20%;
+  
+}
+
+.noresult{
+  text-align: center;
+}
